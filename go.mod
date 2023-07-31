@@ -26,7 +26,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/outposts v1.28.2
 	github.com/aws/aws-sdk-go-v2/service/ssm v1.36.9
 	github.com/aws/aws-sdk-go-v2/service/sts v1.20.1
-	github.com/aws/smithy-go v1.13.5
+	github.com/aws/smithy-go v1.14.0
 	github.com/benjamintf1/unmarshalledmatchers v1.0.0
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/bxcodec/faker v2.0.1+incompatible
