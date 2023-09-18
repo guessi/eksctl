@@ -25,7 +25,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/kms v1.24.5
 	github.com/aws/aws-sdk-go-v2/service/outposts v1.29.6
 	github.com/aws/aws-sdk-go-v2/service/ssm v1.37.5
-	github.com/aws/aws-sdk-go-v2/service/sts v1.21.5
+	github.com/aws/aws-sdk-go-v2/service/sts v1.22.0
 	github.com/aws/smithy-go v1.14.2
 	github.com/benjamintf1/unmarshalledmatchers v1.0.0
 	github.com/blang/semver v3.5.1+incompatible
@@ -67,7 +67,6 @@ require (
 	github.com/vburenin/ifacemaker v1.2.1
 	github.com/vektra/mockery/v2 v2.33.1
 	github.com/weaveworks/goformation/v4 v4.10.2-0.20230526082129-5f5eaa9609b8
-	github.com/weaveworks/launcher v0.0.2-0.20200715141516-1ca323f1de15
 	github.com/weaveworks/schemer v0.0.0-20230525114451-47139fe25848
 	github.com/xgfone/netaddr v0.5.1
 	golang.org/x/crypto v0.12.0
