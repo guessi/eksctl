@@ -4,8 +4,7 @@
 module github.com/weaveworks/eksctl
 
 go 1.21
-
-toolchain go1.21.5
+toolchain go1.22.5
 
 require (
 	github.com/Masterminds/semver/v3 v3.3.1
@@ -43,7 +42,7 @@ require (
 	github.com/fatih/color v1.16.0
 	github.com/github-release/github-release v0.10.0
 	github.com/gobwas/glob v0.2.3
-	github.com/gofrs/flock v0.8.1
+	github.com/gofrs/flock v0.12.1
 	github.com/golangci/golangci-lint v1.57.2
 	github.com/google/uuid v1.6.0
 	github.com/hashicorp/go-version v1.6.0
