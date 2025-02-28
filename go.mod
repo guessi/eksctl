@@ -40,7 +40,7 @@ require (
 	github.com/github-release/github-release v0.10.1
 	github.com/gobwas/glob v0.2.3
 	github.com/gofrs/flock v0.12.1
-	github.com/golangci/golangci-lint v1.64.2
+	github.com/golangci/golangci-lint v1.64.5
 	github.com/google/uuid v1.6.0
 	github.com/hashicorp/go-version v1.7.0
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
@@ -199,7 +199,7 @@ require (
 	github.com/fxamacker/cbor/v2 v2.7.0 // indirect
 	github.com/fzipp/gocyclo v0.6.0 // indirect
 	github.com/ghostiam/protogetter v0.3.9 // indirect
-	github.com/go-critic/go-critic v0.11.5 // indirect
+	github.com/go-critic/go-critic v0.12.0 // indirect
 	github.com/go-errors/errors v1.5.1 // indirect
 	github.com/go-gorp/gorp/v3 v3.1.0 // indirect
 	github.com/go-ini/ini v1.67.0 // indirect
@@ -246,7 +246,7 @@ require (
 	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/gostaticanalysis/analysisutil v0.7.1 // indirect
 	github.com/gostaticanalysis/comment v1.4.2 // indirect
-	github.com/gostaticanalysis/forcetypeassert v0.1.0 // indirect
+	github.com/gostaticanalysis/forcetypeassert v0.2.0 // indirect
 	github.com/gostaticanalysis/nilerr v0.1.1 // indirect
 	github.com/gosuri/uitable v0.0.4 // indirect
 	github.com/gregjones/httpcache v0.0.0-20190611155906-901d90724c79 // indirect
@@ -300,7 +300,7 @@ require (
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-localereader v0.0.1 // indirect
 	github.com/mattn/go-runewidth v0.0.16 // indirect
-	github.com/mgechev/revive v1.6.0 // indirect
+	github.com/mgechev/revive v1.6.1 // indirect
 	github.com/mitchellh/copystructure v1.2.0 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mitchellh/go-wordwrap v1.0.1 // indirect
@@ -323,7 +323,7 @@ require (
 	github.com/nakabonne/nestif v0.3.1 // indirect
 	github.com/nishanths/exhaustive v0.12.0 // indirect
 	github.com/nishanths/predeclared v0.2.2 // indirect
-	github.com/nunnatsa/ginkgolinter v0.18.4 // indirect
+	github.com/nunnatsa/ginkgolinter v0.19.0 // indirect
 	github.com/nxadm/tail v1.4.11 // indirect
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
 	github.com/oliveagle/jsonpath v0.0.0-20180606110733-2e52cf6e6852 // indirect
@@ -362,7 +362,7 @@ require (
 	github.com/santhosh-tekuri/jsonschema/v6 v6.0.1 // indirect
 	github.com/sashamelentyev/interfacebloat v1.1.0 // indirect
 	github.com/sashamelentyev/usestdlibvars v1.28.0 // indirect
-	github.com/securego/gosec/v2 v2.22.0 // indirect
+	github.com/securego/gosec/v2 v2.22.1 // indirect
 	github.com/sergi/go-diff v1.3.1 // indirect
 	github.com/shopspring/decimal v1.4.0 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
@@ -378,7 +378,7 @@ require (
 	github.com/stbenjam/no-sprintf-host-port v0.2.0 // indirect
 	github.com/stretchr/objx v0.5.2 // indirect
 	github.com/subosito/gotenv v1.6.0 // indirect
-	github.com/tdakkota/asciicheck v0.3.0 // indirect
+	github.com/tdakkota/asciicheck v0.4.0 // indirect
 	github.com/tetafro/godot v1.4.20 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.1 // indirect
@@ -413,7 +413,7 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
 	golang.org/x/exp v0.0.0-20250218142911-aa4b98e5adaa // indirect
-	golang.org/x/exp/typeparams v0.0.0-20241108190413-2d47ceb2692f // indirect
+	golang.org/x/exp/typeparams v0.0.0-20250210185358-939b2ce775ac // indirect
 	golang.org/x/mod v0.23.0 // indirect
 	golang.org/x/net v0.35.0 // indirect
 	golang.org/x/sys v0.30.0 // indirect
