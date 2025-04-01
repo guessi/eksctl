@@ -4,7 +4,6 @@
 module github.com/weaveworks/eksctl
 
 go 1.24.0
-
 require (
 	github.com/Masterminds/semver/v3 v3.3.1
 	github.com/aws/amazon-ec2-instance-selector/v3 v3.1.1-0.20250224180552-36eea73b44c2
@@ -58,7 +57,7 @@ require (
 	github.com/sanathkr/go-yaml v0.0.0-20170819195128-ed9d249f429b
 	github.com/sanathkr/yaml v0.0.0-20170819201035-0056894fa522
 	github.com/sethvargo/go-password v0.3.1
-	github.com/spf13/afero v1.12.0
+	github.com/spf13/afero v1.14.0
 	github.com/spf13/cobra v1.9.1
 	github.com/spf13/pflag v1.0.6
 	github.com/stretchr/testify v1.10.0
@@ -72,8 +71,8 @@ require (
 	github.com/xgfone/go-netaddr v0.6.0
 	golang.org/x/crypto v0.35.0
 	golang.org/x/oauth2 v0.27.0
-	golang.org/x/sync v0.11.0
-	golang.org/x/text v0.22.0
+	golang.org/x/sync v0.12.0
+	golang.org/x/text v0.23.0
 	gopkg.in/yaml.v2 v2.4.0
 	helm.sh/helm/v3 v3.17.1
 	k8s.io/api v0.32.2
