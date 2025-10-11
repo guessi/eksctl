@@ -22,14 +22,8 @@ kind: ClusterConfig
 metadata:
   name: my-cluster
   region: us-west-2
-  version: "1.34"
   upgradePolicy:
     supportType: "EXTENDED"  # or "STANDARD"
-
-managedNodeGroups:
-  - name: mng-1
-    instanceType: m5.large
-    desiredCapacity: 1
 ```
 
 ## Command Line Usage
@@ -38,34 +32,6 @@ When creating a cluster with a specific upgrade policy:
 
 ```bash
 eksctl create cluster --config-file=cluster-config.yaml
-```
-
-## Examples
-
-### Extended Support (Default)
-```yaml
-metadata:
-  name: extended-cluster
-  region: us-west-2
-  upgradePolicy:
-    supportType: "EXTENDED"
-```
-
-### Standard Support
-```yaml
-metadata:
-  name: standard-cluster
-  region: us-west-2
-  upgradePolicy:
-    supportType: "STANDARD"
-```
-
-### No Upgrade Policy (Uses AWS Default)
-```yaml
-metadata:
-  name: default-cluster
-  region: us-west-2
-  # No upgradePolicy specified - uses AWS default behavior
 ```
 
 ## Notes
