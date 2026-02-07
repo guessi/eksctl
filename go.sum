@@ -158,8 +158,8 @@ github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.19.14 h1:FzQE21lNtUor0
 github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.19.14/go.mod h1:s1ydyWG9pm3ZwmmYN21HKyG9WzAZhYVW85wMHs5FV6w=
 github.com/aws/aws-sdk-go-v2/service/kms v1.47.1 h1:6+C0RoGF4HJQALrsecOXN7cm/l5rgNHCw2xbcvFgpH4=
 github.com/aws/aws-sdk-go-v2/service/kms v1.47.1/go.mod h1:VJcNH6BLr+3VJwinRKdotLOMglHO8mIKlD3ea5c7hbw=
-github.com/aws/aws-sdk-go-v2/service/outposts v1.57.8 h1:zB9Q/dG0NkURC5E1g4qL/lsUp7aOqilfb7Ru9EOigDU=
-github.com/aws/aws-sdk-go-v2/service/outposts v1.57.8/go.mod h1:3osURGv9q/2wxP1qYnB15GWYgr6w2AbQkSxYtE6vTaY=
+github.com/aws/aws-sdk-go-v2/service/outposts v1.57.11 h1:pTBv1tqYHwSFkXSxpXrfAY83kBIec5YtVEZJaXcu7es=
+github.com/aws/aws-sdk-go-v2/service/outposts v1.57.11/go.mod h1:TcrxIboCEZ2fBS0g66qoDvJ4+MfRGf8Xnf6iDR84nAo=
 github.com/aws/aws-sdk-go-v2/service/pricing v1.34.3 h1:vAv0hi3SWcc8cotkWRP4mPkmRbp/XqWKFyPW4Nwpzv0=
 github.com/aws/aws-sdk-go-v2/service/pricing v1.34.3/go.mod h1:giTP9ufzBQJRB6bc7P30PO8s35hCp6au5uM70zkohU4=
 github.com/aws/aws-sdk-go-v2/service/route53 v1.52.2 h1:dXHWVVPx2W2fq2PTugj8QXpJ0YTRAGx0KLPKhMBmcsY=

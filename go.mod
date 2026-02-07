@@ -21,7 +21,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/elasticloadbalancingv2 v1.54.2
 	github.com/aws/aws-sdk-go-v2/service/iam v1.52.2
 	github.com/aws/aws-sdk-go-v2/service/kms v1.47.1
-	github.com/aws/aws-sdk-go-v2/service/outposts v1.57.8
+	github.com/aws/aws-sdk-go-v2/service/outposts v1.57.11
 	github.com/aws/aws-sdk-go-v2/service/ssm v1.67.4
 	github.com/aws/aws-sdk-go-v2/service/sts v1.41.6
 	github.com/aws/smithy-go v1.24.0
