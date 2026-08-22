@@ -569,6 +569,11 @@ func (in *ClusterConfig) DeepCopyInto(out *ClusterConfig) {
 		*out = new(UpgradePolicy)
 		**out = **in
 	}
+	if in.DeletionProtection != nil {
+		in, out := &in.DeletionProtection, &out.DeletionProtection
+		*out = new(bool)
+		**out = **in
+	}
 	if in.KubernetesNetworkConfig != nil {
 		in, out := &in.KubernetesNetworkConfig, &out.KubernetesNetworkConfig
 		*out = new(KubernetesNetworkConfig)

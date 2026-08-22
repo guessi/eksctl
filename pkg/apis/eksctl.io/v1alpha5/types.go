@@ -1011,6 +1011,10 @@ type ClusterConfig struct {
 	// +optional
 	UpgradePolicy *UpgradePolicy `json:"upgradePolicy,omitempty"`
 
+	// DeletionProtection specifies whether deletion protection is enabled for the cluster
+	// +optional
+	DeletionProtection *bool `json:"deletionProtection,omitempty"`
+
 	// +optional
 	KubernetesNetworkConfig *KubernetesNetworkConfig `json:"kubernetesNetworkConfig,omitempty"`
 

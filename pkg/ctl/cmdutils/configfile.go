@@ -767,6 +767,33 @@ func NewUtilsEnableLoggingLoader(cmd *Cmd) ClusterConfigLoader {
 	return l
 }
 
+// NewUtilsUpdateDeletionProtectionLoader will load config or use flags for 'eksctl utils deletion-protection'.
+func NewUtilsUpdateDeletionProtectionLoader(cmd *Cmd, enabled *bool) ClusterConfigLoader {
+	l := newCommonClusterConfigLoader(cmd)
+
+	l.flagsIncompatibleWithConfigFile.Insert("enabled")
+
+	l.validateWithoutConfigFile = func() error {
+		if err := l.validateMetadataWithoutConfigFile(); err != nil {
+			return err
+		}
+		if flag := l.CobraCommand.Flag("enabled"); flag == nil || !flag.Changed {
+			return errors.New("--enabled must be set")
+		}
+		cmd.ClusterConfig.DeletionProtection = enabled
+		return nil
+	}
+
+	l.validateWithConfigFile = func() error {
+		if cmd.ClusterConfig.DeletionProtection == nil {
+			return errors.New("deletionProtection must be set in the config file")
+		}
+		return nil
+	}
+
+	return l
+}
+
 // NewUtilsEnableEndpointAccessLoader will load config or use flags for 'eksctl utils update-cluster-endpoints'.
 func NewUtilsEnableEndpointAccessLoader(cmd *Cmd, privateAccess, publicAccess bool) ClusterConfigLoader {
 	l := newCommonClusterConfigLoader(cmd)
