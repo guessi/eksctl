@@ -28,7 +28,7 @@ jobs:
       # Drafts your next Release notes as Pull Requests are merged into "main"
       - name: Draft release notes
         id: draft
-        uses: release-drafter/release-drafter@978bb0b30c5ee8cdd332ced253758157150d43f0 #v7.10.0
+        uses: release-drafter/release-drafter@d1a19e60e81a7e650d00a7de9277f87e439117ea #v7.11.0
         # (Optional) specify config name to use, relative to .github/. Default: release-drafter.yml
         # with:
         #   config-name: my-config.yml
@@ -89,7 +89,7 @@ jobs:
         run: |
           cp "${RUNNER_TEMP}/notes/${TAG_NAME#v}.md" "docs/release_notes/${TAG_NAME#v}.md"
       - name: Upsert pull request
-        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 #v8.1.1
+        uses: peter-evans/create-pull-request@3ffccacd46053766916f087ce41d627c0b8cf2d1 #v8.1.3
         with:
           token: ${{ secrets.EKSCTLBOT_TOKEN }}
           commit-message: Add release notes for ${{ needs.render_release_draft.outputs.tag_name }}
